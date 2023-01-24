@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: yellow;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 26px;
+    width: 60%;
+    justify-content: space-around;
+
+}
+
+li:hover {
+    background-color: lightgreen;
+
+}
+
+li {
+    transition-duration: 0.5s;
+    padding: 25px;
+}
+
+img {
+    width: 90px;
+
+}
+
+a {
+    color: none;
+    text-decoration: none;
+}
+
+.options {
+
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+    border: solid 2px gray;
+    animation-name: move-options;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes move-options {
+    0% {
+
+        opacity: 0;
+    }
+
+    100% {
+
+        opacity: 1;
+    }
+
+}
+
+
+.option {
+
+    width: 17%;
+    text-align: center;
+    border-right: solid 1px gray;
+
+}
+
+.om {
+    text-align: center;
+    margin: auto;
+}
+
+.om p {
+    width: 60%;
+    margin: auto;
+}
+
+.om1 {
+    color: blue;
+    font-weight: 800;
+}
+
+.ue {
+    height: 10px;
+    background-color: orange;
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hg {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: blue;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.po {
+    width: 33%;
+
+
+}
+
+.po:hover {
+    opacity: 0.5;
+}
+
+
+.po img {
+    width: 100%;
+    border: solid 1px;
+}
+
+.om ul {
+
+    margin: auto;
+}
